@@ -285,15 +285,5 @@ dut : entity work.sqrt32 generic map (N => 64)
 
 ---
 
-## Notes on the published paper
 
-The source code as printed in the paper does not compile. Corrections applied
-here:
-
-- Modules A, B and F end with mismatched entity names (`entity A ... end S0b;`).
-- Module D is printed as `bo <= (not x) nand b`; folding `y='1'` into
-  `bo = x'y + yb + x'b` gives `bo = (not x) or b`.
-- Section III states `d <= x-y-b` when `u='0'`; the polarity is reversed, and
-  the printed VHDL (`d <= td when u='1' else x`) is the correct one.
-- Fig. 16 declares `P : in std_logic_vector(64 downto 0)` for a 64-bit radicand.
 

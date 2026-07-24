@@ -1,4 +1,4 @@
-# 32-bit Non-Restoring Square Root on FPGA (Gate Level, VHDL)
+# 32-bit Non-Restoring Square Root Algorithm (Gate Level, VHDL)
 
 Gate-level VHDL implementation of the modified non-restoring square root
 algorithm from Tole Sutikno, *"An Efficient Implementation of the Non Restoring

@@ -140,7 +140,7 @@ A width-`N` core has `N/2` rows and `(N/2)*(N/2+5)/2` cells in total.
 
 ## About the author
 
-**Himanish**, final-year B.Tech, Electronics and Communication Engineering, NIT Rourkela (graduating May 2027). Looking for entry-level **ASIC / RTL design** roles.
+**Himanish Panda**, B.Tech, Electronics and Communication Engineering, National Institute Of Technology, Rourkela.
 
 GitHub: [Himanish-30](https://github.com/Himanish-30)
 <!-- Add: email and LinkedIn -->
